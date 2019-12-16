@@ -1,0 +1,93 @@
+
+body {
+  margin: 0;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard syntax */
+}
+
+#aantal {
+  grid-column: 3/5;
+  font-family: sans-serif;
+  font-size: 2.5vw;
+  color: grey;
+  box-shadow: 0px 0px 20px grey;
+  border: none;
+  border-radius: 15px;
+  transition-duration: 0.4s;
+  outline: none;
+  text-align: center;
+  margin: 0px;
+}
+
+#huidig {
+  grid-column: 3/5;
+  font-family: sans-serif;
+  font-size: 2.5vw;
+  color: grey;
+  box-shadow: 0px 0px 20px grey;
+  border: none;
+  border-radius: 15px;
+  transition-duration: 0.4s;
+  outline: none;
+  text-align: center;
+  margin: 0px;
+}
+
+#highscore {
+  grid-column: 3/5;
+  font-family: sans-serif;
+  font-size: 2.5vw;
+  color: grey;
+  box-shadow: 0px 0px 20px grey;
+  border: none;
+  border-radius: 15px;
+  transition-duration: 0.4s;
+  outline: none;
+  text-align: center;
+  margin: 0px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+.item {
+  text-align: center;
+  font-size: 15vw;
+  border: 2px solid grey;
+  grid-column: span 2;
+  margin: 0;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px grey;
+  margin-top: 1rem;
+  transition-duration: 0.4s;
+}
+
+input {
+  grid-column: 2/6;
+  font-family: sans-serif;
+  font-size: 5vw;
+  background: grey;
+  color: white;
+  box-shadow: 0px 0px 20px grey;
+  border: none;
+  border-radius: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  outline: none;
+}
+
+input:hover {
+  box-shadow: 0px 0px 40px grey;
+  transition-duration: 0.4s;
+  color: grey;
+  background: white;
+
+}
